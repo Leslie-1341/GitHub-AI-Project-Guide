@@ -1,0 +1,36 @@
+# Python / 环境
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.conda/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# 深度学习模型权重与配置 (PyTorch, TensorFlow, Stable Diffusion)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.pb
+
+# 数据集与日志
+data/
+datasets/
+logs/
+tb_logs/
+runs/
+*.tfrecord
+*.mp4
+*.png
+*.jpg
+
+# 密钥与本地配置 (极其重要，防止 API Key 泄露)
+.env
+secrets.json
+local_config.py
